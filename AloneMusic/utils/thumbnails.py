@@ -76,8 +76,8 @@ async def get_thumb(videoid: str, player_username: str = None) -> str:
     draw = ImageDraw.Draw(bg)
 
     try:
-        font_bold = "ShashankMusic/assets/font2.ttf"
-        font_med = "ShashankMusic/assets/font.ttf"
+        font_bold = "AloneMusic/assets/font2.ttf"
+        font_med = "AloneMusic/assets/font.ttf"
         title_font = ImageFont.truetype(font_bold, 60)
         artist_font = ImageFont.truetype(font_med, 40)
         time_font = ImageFont.truetype(font_med, 32)
